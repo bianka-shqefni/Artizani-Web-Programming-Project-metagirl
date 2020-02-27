@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	
+		<meta charset="UTF-8">
+	
+	<title>Artizani</title>
+	<link rel="stylesheet" href="css/main.css">
+	<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+            <link rel="icon" href="img/favicon.ico" type="image/x-icon">
+</head>
+<!-- <div class="title text-center" >
+                        <h1 onclick="window.open('index.html')">Regjistrohu tani.</h1>
+                        <h3>Do të keni mundësinë të blini cdo gjë që dëshironi, të lexoni artikujt më të rinj rreth traditave tona si dhe të shikoni videot argëtuese.</h3>
+                        
+                        
+                     </div> -->
+<body id="b" style="background-image: url(img/red.jpg) ;">
+			<div id="wrapper">
+   <form method="POST" action="index.php" onsubmit="return Validate()" name="vform" >
+   	<div id="emri_div">
+   	  <label>Emri</label> <br>
+   	  <input type="text" name="emri" class="textInput">
+   	  <div id="emri_error"></div>
+   	</div>
+   	<div id="mbiemri_div">
+   	  <label>Mbiemri</label> <br>
+   	  <input type="text" name="mbiemri" class="textInput">
+   	  <div id="mbiemri_error"></div>
+   	</div>
+      
+   	<div id="email_div">
+   	  <label>Email</label> <br>
+   	  <input type="email" name="email" class="textInput">
+   	  <div id="email_error"></div>
+   	</div>
+
+   	<div id="password_div">
+   	  <label>Password</label> <br>
+   	  <input type="password" name="password" class="textInput">
+   	</div>
+   	<div id="pass_confirm_div">
+   	   <label>Konfirmo Password-in!</label> <br>
+   	   <input type="password" name="password_confirm" class="textInput">
+   	   <div id="password_error"></div>
+   	</div>
+   	<div id="tel_div">
+   	  <label>Numri i telefonit</label> <br>
+   	  <input type="tel" name="tel"id="tel" class="textInput"> 
+        <div id="tel_error"></div>
+
+   	 
+   	</div><br>
+      
+      <div id="gjinia" >
+         <label>Gjinia</label><br>
+         <label for="femer">Femer</label>
+         <input type="radio" name="gjinia" id="femer" value="femer">
+         <label for="mashkull">Mashkull</label>
+         <input type="radio" name="gjinia" id="mashkull" value="mashkull">
+      </div><br>
+      <div id="lista">
+      <label>Zgjidh qytetin:</label>
+          <p>
+             <select id = "Lista">
+               <option value = "1">Tirane</option>
+               <option value = "2">Lushnje</option>
+               <option value = "3">Korce</option>
+               <option value = "4">Fier</option>
+             </select>
+          </p>
+       </div>
+       <br><br>
+
+   	<input type="submit" name="register" value="Register" class="btn">
+   	
+   </form>
+  </div>
+
+<script src="js/kryesore/jquery-2.2.4.min.js"></script>
+			<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+			<script src="js/kryesore/bootstrap.min.js"></script>			
+  			<script src="js/easing.min.js"></script>			
+			<script src="js/superfish.min.js"></script>	
+		    <script src="js/jquery.magnific-popup.min.js"></script>	
+			<script src="js/main.js"></script>	
